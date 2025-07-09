@@ -1,0 +1,3 @@
+[submodule "Il2CppInterop"]
+	path = Il2CppInterop
+	url = https://github.com/Deathemonic/Il2CppInterop

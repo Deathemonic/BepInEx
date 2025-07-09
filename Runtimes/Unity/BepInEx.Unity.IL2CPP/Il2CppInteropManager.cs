@@ -123,7 +123,8 @@ internal static partial class Il2CppInteropManager
 
     private static string HashPath => Path.Combine(IL2CPPInteropAssemblyPath, "assembly-hash.txt");
 
-    private static string IL2CPPBasePath {
+    private static string IL2CPPBasePath 
+    {
         get {
             if (il2cppInteropBasePath != null)
                 return il2cppInteropBasePath;
